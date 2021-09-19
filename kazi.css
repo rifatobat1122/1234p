@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color: grey;
+    height: 5rem;
+}
+.logo{
+    width: 25%;
+
+}
+.logo img{
+    width: 70%;
+    margin-top: 1rem;
+    margin-left: 20px;
+}
+.list{
+    width: 50%;
+}
+li{
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin-top: 1rem;
+}
+.search{
+    width: 25%;
+}
+.search input{
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    background-color: lawngreen;
+
+}
+/* HERO */
+.hero{
+    background-image: url(./he.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    text-align: center;
+    padding-top: 10rem;
+    padding-left: 30rem;
+    padding-right: 25rem;
+    color: rgb(245, 244, 236);
+    font-size: 20px;
+}
+.hero button{
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1rem;
+    background-color: rgb(12, 12, 12);
+    color: wheat;
+    font-size: 20px;
+}
+/* HERO2 */
+.head{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.hero2{
+    display: flex;
+}
+.lakha{
+    width: 45%;
+    margin-left: 4.5rem;
+    margin-top: 3rem;
+}
+.lakha h1{
+    font-size: 3rem;
+}
+.lakha p{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-right: 25px;
+}
+.lakha button{
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1rem;
+    background-color: rgb(12, 12, 12);
+    color: wheat;
+    font-size: 20px;
+}
+.pic{
+    width: 45%;
+}
+.pic img{
+    width: 100%;
+    border-radius: 30px;
+}
+/* CARD */
+.head{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.card{
+    display: flex;
+    padding: 20px;
+}
+.card1 img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    margin-top: 20px;
+   
+}
+.card1{
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(156, 153, 153);
+    border-radius: 20px;
+}
+.card1 h1{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.card1 p{
+    font-size: 20px;
+    color: blue;
+}
+.card1 button{
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(12, 12, 12);
+    color: wheat;
+    font-size: 20px;
+}
+/* Profile */
+.profile{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.profile img{
+    width: 15%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+/* Topbar */
+.top{
+    background-image: url(./back.jpeg);
+    height: 25rem;
+    background-position: center center;
+    text-align: center;
+}
+.obat{
+    color: wheat;
+    padding-top: 10rem;
+    font-size: 2rem;
+}
+.btn button{
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(17, 14, 14);
+    color: rgb(252, 249, 243);
+    font-size: 20px;
+    margin-right: 2rem;
+}
+.btn input{
+    height: 2rem;
+    width: 8rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(2, 4, 138);
+    color: rgb(223, 231, 238);
+    font-size: 20px;
+    margin-right: 2rem;
+}
+
